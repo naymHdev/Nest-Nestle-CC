@@ -1,23 +1,33 @@
-import propertyImage1 from "../assets/property - 1.jpeg";
-import propertyImage2 from "../assets/property - 2.jpeg";
+/* eslint-disable react/prop-types */
 import FindButton from "./FindButton";
 
-const IsProperty = () => {
+const IsProperty = ({image1, image2, title, description, name}) => {
   return (
     <>
-      <div className=" flex gap-8">
+      <div className="grid md:flex gap-8">
         <div className=" flex-1">
-          <img src={propertyImage1} alt="" />
-          <img src={propertyImage2} alt="" />
+          <div>
+            <img
+              className="w-[458px] h-[400px] rounded-md"
+              src={image1}
+              alt=""
+            />
+          </div>
+          <div className=" -mt-36 ml-20">
+            <img
+              className="w-[452px] h-[240px] rounded-md"
+              src={image2}
+              alt=""
+            />
+          </div>
         </div>
         <div className=" flex-1">
-          <h4 className=" text-[#F06711] text-[18px]">Property buying</h4>
+          <h4 className=" text-[#F06711] text-[18px]">{name}</h4>
           <h2 className=" text-[#111827] text-5xl mt-5 font-semibold">
-            Efficient and Transparent Home Buying Solutions
+            {title}
           </h2>
           <p className=" text-sm mt-6">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+           {description}
           </p>
           <div className=" mt-5 ">
             <FindButton />
