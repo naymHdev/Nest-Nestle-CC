@@ -1,23 +1,64 @@
+import rHouse from "../../assets/about-home.jpeg";
+import man1 from "../../assets/sm1.jpeg";
+import man2 from "../../assets/sm2.jpeg";
+import man3 from "../../assets/sm3.jpeg";
+import ha1 from "../../assets/a-h1.jpeg";
+import ha2 from "../../assets/ah2.jpeg";
+
 const OurTeem = () => {
   return (
     <>
       <div className="w-11/12 mx-auto mt-32">
-        <div className=" text-[#EE6612] font-medium flex items-center gap-2">
+        <section className="">
+          <div>
+            <div>
+              <img className=" w-[904px] h-[455px]" src={ha1} alt="" />
+            </div>
+            <div className="bg-[#ECF5FF] px-8 py-8 text-start w-7/12 relative -mt-20">
+              <div className=" text-[#EE6612] font-medium flex items-center gap-2">
+                <div>
+                  <div className=" border-b-2 border-[#EE6612] w-12" />
+                </div>
+                <h4>Our Story</h4>
+              </div>
+              <h2 className=" mt-4 text-3xl font-bold text-start">
+                Efficient and Transparent Home Buying Solutions
+              </h2>
+              <p className=" mt-6">
+                In the symphony of bustling markets and serene landscapes,
+                Heritage-Nest was born—a vision to
+              </p>
+            </div>
+          </div>
+        </section>
+        <div className=" text-[#EE6612] font-medium flex items-center gap-2 mt-20">
+          <div>
+            <div className=" border-b-2 border-[#EE6612] w-12" />
+          </div>
           <h4>Our Teem</h4>
         </div>
         <h2 className=" mt-4 text-3xl font-bold">
           Discover the Faces Behind Our Success
         </h2>
-        <div className=" mt-16">
+        <div className=" mt-12">
           <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <img src="" alt="" />
+              <img className=" w-[384px] h-[417px]" src={man1} alt="" />
+            </div>
+            <div>
+              <img className=" w-[384px] h-[417px]" src={man2} alt="" />
+            </div>
+            <div>
+              <img className=" w-[384px] h-[417px]" src={man3} alt="" />
             </div>
           </div>
         </div>
-        <div className=" mt-16 grid grid-cols-1 md:grid-cols-2 gap-32">
+        <div className=" mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-32">
           <div>
             <div className=" text-[#EE6612] font-medium flex items-center gap-2">
+              <div>
+                <div className=" border-b-2 border-[#EE6612] w-12" />
+              </div>
               <h4>Meet the Team For Book Consultation</h4>
             </div>
             <div>
@@ -35,8 +76,8 @@ const OurTeem = () => {
               </div>
             </div>
           </div>
-          <div>
-            <img className="w-[384px] rounded-md" src="" alt="" />
+          <div className=" order-first md:order-last">
+            <img className=" w-96 rounded-md" src={rHouse} alt="" />
           </div>
         </div>
       </div>
