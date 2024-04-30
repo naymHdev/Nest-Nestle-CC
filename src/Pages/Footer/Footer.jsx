@@ -20,56 +20,116 @@ const Footer = () => {
               <div>
                 <h3 className="font-extrabold">Product</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link>Overview</Link>
-                  <Link>Features</Link>
-                  <Link>Solutions</Link>
-                  <Link>Tutorials</Link>
-                  <Link>Pricing</Link>
-                  <Link>Releases</Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Overview
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Features
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Solutions
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Tutorials
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Pricing
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Releases
+                  </Link>
                 </div>
               </div>
               <div>
                 <h3 className="font-extrabold">Company</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link>About us</Link>
-                  <Link>Careers</Link>
-                  <Link>Press</Link>
-                  <Link>News</Link>
-                  <Link>Media Kit</Link>
-                  <Link>Contact</Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    About us
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Careers
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Press
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    News
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Media Kit
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Contact
+                  </Link>
                 </div>
               </div>
               <div>
                 <h3 className="font-extrabold">Resources</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link>Blog</Link>
-                  <Link>Newsletter</Link>
-                  <Link>Events</Link>
-                  <Link>Help Center</Link>
-                  <Link>Tutorials</Link>
-                  <Link>Support</Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Blog
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Newsletter
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Events
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Help Center
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Tutorials
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Support
+                  </Link>
                 </div>
               </div>
               <div>
                 <h3 className="font-extrabold">Social</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link>Twitter</Link>
-                  <Link>Linkedin</Link>
-                  <Link>FaceBook</Link>
-                  <Link>GitHub</Link>
-                  <Link>AngelList</Link>
-                  <Link>Dribble</Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Twitter
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Linkedin
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    FaceBook
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    GitHub
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    AngelList
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Dribble
+                  </Link>
                 </div>
               </div>
               <div>
                 <h3 className="font-extrabold">Legal</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link>Terms</Link>
-                  <Link>Privacy</Link>
-                  <Link>Cookies</Link>
-                  <Link>Licenses</Link>
-                  <Link>Settings</Link>
-                  <Link>Contact</Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Terms
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Privacy
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Cookies
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Licenses
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Settings
+                  </Link>
+                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                    Contact
+                  </Link>
                 </div>
               </div>
             </div>
