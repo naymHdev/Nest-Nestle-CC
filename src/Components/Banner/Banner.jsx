@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
 // import video from "../../assets/banner.mp4";
 
 const Banner = () => {
@@ -23,10 +24,12 @@ const Banner = () => {
                 Exquisite Real Estate
               </h2>
               <div className="flex items-center justify-center mt-5">
-                <button className="font-medium flex items-center justify-center gap-3 bg-[#055AB1] text-white rounded-md px-6 py-3">
-                  <FiSearch className="text-xl" />
-                  Find Property
-                </button>
+                <Link to="/buyerScreens">
+                  <button className="font-medium flex items-center justify-center gap-3 bg-[#055AB1] text-white rounded-md px-6 py-3">
+                    <FiSearch className="text-xl" />
+                    Find Property
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
