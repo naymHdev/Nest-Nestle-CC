@@ -43,7 +43,10 @@ const Footer = () => {
               <div>
                 <h3 className="font-extrabold">Company</h3>
                 <div className="grid space-y-2 mt-5">
-                  <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">
+                  <Link
+                    to="/about"
+                    className=" hover:underline hover:text-[#055BB2] hover:font-medium"
+                  >
                     About us
                   </Link>
                   <Link className=" hover:underline hover:text-[#055BB2] hover:font-medium">

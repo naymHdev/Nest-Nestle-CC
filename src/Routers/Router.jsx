@@ -3,6 +3,7 @@ import Layout from "../Layouts/Layout";
 import Error from "../Components/Error";
 import Home from "../Pages/Home/Home";
 import BuyerScreens from "../Pages/BuyerScreens/BuyerScreens";
+import About from "../Pages/About/About";
 
 const Router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const Router = createBrowserRouter([
       {
         path: "/buyerScreens",
         element: <BuyerScreens />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },
