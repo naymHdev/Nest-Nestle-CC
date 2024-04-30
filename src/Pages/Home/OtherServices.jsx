@@ -8,7 +8,7 @@ const OtherServices = () => {
           Other Services
         </h2>
         <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8">
-          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6">
+          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6 shadow-sm hover:cursor-pointer hover:shadow-2xl hover:-translate-y-4 transition-[0.5s]">
             <div>
               <div className="bg-[#EE6612] text-white p-2 rounded-md shadow-md">
                 <RiHome3Line />
@@ -24,7 +24,7 @@ const OtherServices = () => {
               </p>
             </div>
           </div>
-          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6">
+          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6 shadow-sm hover:cursor-pointer hover:shadow-2xl hover:-translate-y-4 transition-[0.5s]">
             <div>
               <div className="bg-[#EE6612] text-white p-2 rounded-md shadow-md">
                 <RiHome3Line />
@@ -40,7 +40,7 @@ const OtherServices = () => {
               </p>
             </div>
           </div>
-          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6">
+          <div className=" flex gap-4 bg-[#ECF5FF] rounded-md px-6 py-6 shadow-sm hover:cursor-pointer hover:shadow-2xl hover:-translate-y-4 transition-[0.5s]">
             <div>
               <div className="bg-[#EE6612] text-white p-2 rounded-md shadow-md">
                 <RiHome3Line />
