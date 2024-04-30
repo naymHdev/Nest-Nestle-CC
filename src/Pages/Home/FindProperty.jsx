@@ -6,6 +6,7 @@ import living2 from "../../assets/modarn-interior.jpeg";
 import second1 from "../../assets/2nd1.jpeg";
 import second2 from "../../assets/2nd2.jpeg";
 import FindButton from "../../Hooks/FindButton";
+import videoIcon from "../../assets/Group 27.png";
 
 const FindProperty = () => {
   return (
@@ -34,19 +35,26 @@ const FindProperty = () => {
                 <FindButton />
               </div>
             </div>
-            <div className=" flex-1">
-              <div>
-                <img
-                  className="w-[458px] h-[400px] rounded-md"
-                  src={second1}
-                  alt=""
-                />
-              </div>
-              <div className=" -mt-36 ml-20">
+            <div className=" flex-1 relative">
+              <div className=" absolute ml-24">
                 <img
                   className="w-[452px] h-[240px] rounded-md"
                   src={second2}
                   alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="w-[458px] h-[400px] rounded-md mt-28"
+                  src={second1}
+                  alt=""
+                />
+              </div>
+              <div className="absolute right-[420px] top-[80px]">
+                <img
+                  className=" w-[72px] h-[72px]"
+                  src={videoIcon}
+                  alt="Video Icon"
                 />
               </div>
             </div>
