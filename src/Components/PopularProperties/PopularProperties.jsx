@@ -16,8 +16,33 @@ const PopularProperties = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    centerMode: true,
-    pauseOnHover: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -40,17 +65,17 @@ const PopularProperties = () => {
                     </div>
                   ))}
                 </div>
-                <div className=" px-3 py-2 pt-4 bg-[#F9FAFB]">
+                <div className=" px-1 md:px-3 py-2 pt-4 bg-[#F9FAFB]">
                   <div className=" flex items-center justify-between border-b-2 pb-1">
                     <div>
                       <p className=" font-medium">{property?.property_type}</p>
                     </div>
-                    <div className=" flex items-center gap-3">
+                    <div className=" flex items-center gap-1 md:gap-3">
                       <FaRegSquare className="text-[#EE6612] bg-[#EE6612] text-sm" />
                       <p className=" font-medium">Ready to Move</p>
                     </div>
                   </div>
-                  <h2 className=" text-2xl mt-2 font-medium">
+                  <h2 className=" text-xl md:text-2xl mt-2 font-medium">
                     {property?.property_name}
                   </h2>
                   <div className=" flex items-center gap-2 font-medium mt-2">

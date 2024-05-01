@@ -32,9 +32,9 @@
     "price": 2500,
     "details_overview": "A spacious house with a large backyard, perfect for families.",
     "images": [
-      { "image1": "https://i.ibb.co/4TYK3dm/room1.jpg" },
       { "image2": "https://i.ibb.co/7Xk1HSQ/room2.jpg" },
-      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" }
+      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" },
+      { "image1": "https://i.ibb.co/4TYK3dm/room1.jpg" }
     ],
     "details": {
       "bedrooms": 4,
@@ -58,8 +58,8 @@
     "details_overview": "A modern loft with high ceilings and an open floor plan.",
     "images": [
       { "image1": "https://i.ibb.co/4TYK3dm/room1.jpg" },
-      { "image2": "https://i.ibb.co/7Xk1HSQ/room2.jpg" },
-      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" }
+      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" },
+      { "image2": "https://i.ibb.co/7Xk1HSQ/room2.jpg" }
     ],
     "details": {
       "bedrooms": 1,
@@ -82,9 +82,9 @@
     "price": 3000,
     "details_overview": "A luxurious condo with state-of-the-art amenities.",
     "images": [
+      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" },
       { "image1": "https://i.ibb.co/4TYK3dm/room1.jpg" },
-      { "image2": "https://i.ibb.co/7Xk1HSQ/room2.jpg" },
-      { "image3": "https://i.ibb.co/L9zK3yS/room3.jpg" }
+      { "image2": "https://i.ibb.co/7Xk1HSQ/room2.jpg" }
     ],
     "details": {
       "bedrooms": 3,
