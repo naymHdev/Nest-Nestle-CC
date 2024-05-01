@@ -1,13 +1,27 @@
 /* eslint-disable react/prop-types */
+import { useState } from "react";
 import PropertyCard from "./PropertyCard";
+import { Pagination } from "antd";
 
 const IsProperty = ({ allProperty }) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5;
+
   const newProject = allProperty.filter(
     (itm) => itm?.category === "New_Projects"
   );
   const preLaunch = allProperty.filter(
     (itm) => itm?.category === "Pre_launch_offers"
   );
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
+  // Calculate start and end indexes for pagination
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentProperties = allProperty.slice(startIndex, endIndex);
 
   return (
     <>
@@ -28,10 +42,19 @@ const IsProperty = ({ allProperty }) => {
           {allProperty?.length} results for rental property
         </h3>
         <div>
-          {allProperty?.map((property) => (
+          {currentProperties?.map((property) => (
             <PropertyCard key={property?.id} property={property} />
           ))}
         </div>
+        <hr className=" mt-5 mb-5 w-8/12" />
+        <Pagination
+          current={currentPage}
+          pageSize={itemsPerPage}
+          total={allProperty.length}
+          onChange={handlePageChange}
+          showSizeChanger={false}
+          showQuickJumper={true}
+        />
       </div>
     </>
   );
