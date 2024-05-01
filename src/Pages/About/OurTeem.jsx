@@ -8,13 +8,13 @@ import ha2 from "../../assets/ah2.jpeg";
 const OurTeem = () => {
   return (
     <>
-      <div className="w-11/12 mx-auto mt-32">
-        <section className="">
+      <section className=" mt-20 w-10/12 mx-auto">
+        <div>
           <div>
-            <div>
-              <img className=" w-[904px] h-[455px]" src={ha1} alt="" />
-            </div>
-            <div className="bg-[#ECF5FF] px-8 py-8 text-start w-7/12 relative -mt-20">
+            <img className=" w-10/12 h-[455px]" src={ha1} alt="" />
+          </div>
+          <div className=" flex items-center justify-end">
+            <div className="bg-[#ECF5FF] px-8 py-8 text-start w-7/12 relative -mt-36">
               <div className=" text-[#EE6612] font-medium flex items-center gap-2">
                 <div>
                   <div className=" border-b-2 border-[#EE6612] w-12" />
@@ -30,7 +30,9 @@ const OurTeem = () => {
               </p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+      <div className="w-11/12 mx-auto mt-32">
         <div className=" text-[#EE6612] font-medium flex items-center gap-2 mt-20">
           <div>
             <div className=" border-b-2 border-[#EE6612] w-12" />
