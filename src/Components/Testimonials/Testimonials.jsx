@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <>
       <div>
-        <Carousel autoPlay>
+        <Carousel autoPlay >
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 w-11/12 mx-auto">
             <div className="bg-[#ECF5FF] rounded-md px-8 py-8">
               <div className=" mt-2">
