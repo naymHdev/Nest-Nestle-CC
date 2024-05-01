@@ -5,7 +5,7 @@ import Footer from "../Pages/Footer/Footer";
 const Layout = () => {
   return (
     <>
-      <div>
+      <div className=" overflow-hidden">
         <Header />
         <div className=" min-h-screen">
           <Outlet />
