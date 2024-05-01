@@ -4,6 +4,7 @@ import Error from "../Components/Error";
 import Home from "../Pages/Home/Home";
 import BuyerScreens from "../Pages/BuyerScreens/BuyerScreens";
 import About from "../Pages/About/About";
+import SearchResult from "../Pages/SearchResult/SearchResult";
 
 const Router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const Router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/searchResult",
+        element: <SearchResult />,
       },
     ],
   },

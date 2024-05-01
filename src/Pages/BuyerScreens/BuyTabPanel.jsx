@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import { CiSearch, CiLocationOn } from "react-icons/ci";
 import { RiHomeSmileLine } from "react-icons/ri";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const BuyTabPanel = () => {
   return (
@@ -86,12 +88,14 @@ const BuyTabPanel = () => {
           </div>
         </div>
         <div>
-          <div className="flex  mt-8 w-full pb-3">
-            <button className="font-medium w-full flex items-center justify-center gap-3 bg-[#055AB1] hover:bg-[#3178c0] text-[#f2f4f7] rounded-md px-6 py-3">
-              <FiSearch className="text-xl" />
-              Find Property
-            </button>
-          </div>
+          <Link to="/searchResult">
+            <div className="flex  mt-8 w-full pb-3">
+              <button className="font-medium w-full flex items-center justify-center gap-3 bg-[#055AB1] hover:bg-[#3178c0] text-[#f2f4f7] rounded-md px-6 py-3">
+                <FiSearch className="text-xl" />
+                Find Property
+              </button>
+            </div>
+          </Link>
         </div>
       </div>
     </>

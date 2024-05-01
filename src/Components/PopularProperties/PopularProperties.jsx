@@ -2,6 +2,7 @@ import useProperty from "../../Hooks/useProperty";
 import Slider from "react-slick";
 import { FaRegSquare, FaImage } from "react-icons/fa";
 import { TfiLocationPin } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const PopularProperties = () => {
   const [isProperty] = useProperty();
@@ -50,9 +51,11 @@ const PopularProperties = () => {
       <div className=" w-11/12 mx-auto mt-16">
         <div className=" flex items-center justify-between">
           <h3 className=" text-3xl font-medium">Popular Properties</h3>
-          <button className="font-bold underline text-[#055AB1]">
-            See all propeety
-          </button>
+          <Link to="/searchResult">
+            <button className="font-bold underline text-[#055AB1]">
+              See all propeety
+            </button>
+          </Link>
         </div>
         <div className="slider-container mt-12">
           <Slider {...settings}>
@@ -101,9 +104,11 @@ const PopularProperties = () => {
         <hr className=" mt-16" />
         <div className=" flex items-center justify-between mt-12">
           <h3 className=" text-3xl font-medium">New Listed Properties</h3>
-          <button className="font-bold underline text-[#055AB1]">
-            See all propeety
-          </button>
+          <Link to="/searchResult">
+            <button className="font-bold underline text-[#055AB1]">
+              See all propeety
+            </button>
+          </Link>
         </div>
         <div className="slider-container mt-12">
           <Slider {...settings}>
