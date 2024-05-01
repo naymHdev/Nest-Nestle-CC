@@ -32,6 +32,31 @@ const OurTeem = () => {
           </div>
         </div>
       </section>
+      <section className=" mt-20 w-10/12 mx-auto">
+        <div>
+          <div className=" flex items-end justify-end mr-10">
+            <img className=" w-9/12 h-[455px]" src={ha2} alt="" />
+          </div>
+          <div className=" flex items-center justify-start">
+            <div className="bg-[#ECF5FF] px-8 py-8 text-start w-7/12 relative -mt-28">
+              <div className=" text-[#EE6612] font-medium flex items-center gap-2">
+                <div>
+                  <div className=" border-b-2 border-[#EE6612] w-12" />
+                </div>
+                <h4>Mission Statement</h4>
+              </div>
+              <h2 className=" mt-4 text-3xl font-bold text-start">
+                Efficient and Transparent Home Buying Solutions
+              </h2>
+              <p className=" mt-6">
+                To bridge the miles with smiles, Heritage-Nest pledges to be the
+                golden thread connecting NRIs to their homeland, through trust,
+                transparency, and tailored real estate solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="w-11/12 mx-auto mt-32">
         <div className=" text-[#EE6612] font-medium flex items-center gap-2 mt-20">
           <div>
