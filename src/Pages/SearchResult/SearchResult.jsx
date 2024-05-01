@@ -7,7 +7,7 @@ const SearchResult = () => {
     <>
       {allProperty?.length}
 
-      <div></div>
+      <div>{allProperty?.map((item) => console.log(item))}</div>
     </>
   );
 };
