@@ -14,11 +14,11 @@ const IsProperty = ({ allProperty }) => {
     (itm) => itm?.category === "Pre_launch_offers"
   );
 
+  // Calculate start and end indexes for pagination
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
 
-  // Calculate start and end indexes for pagination
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentProperties = allProperty.slice(startIndex, endIndex);
