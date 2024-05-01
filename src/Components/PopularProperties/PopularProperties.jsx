@@ -1,6 +1,6 @@
 import useProperty from "../../Hooks/useProperty";
 import Slider from "react-slick";
-import { FaRegSquare } from "react-icons/fa";
+import { FaRegSquare, FaImage } from "react-icons/fa";
 import { TfiLocationPin } from "react-icons/tfi";
 
 const PopularProperties = () => {
@@ -61,12 +61,13 @@ const PopularProperties = () => {
                 <div className="bg-[#F9FAFB]">
                   {property?.images?.map((img, index) => (
                     <div key={index}>
-                      <img src={img?.image2} alt="" />
+                      <img src={img?.image1} alt="" />
                     </div>
                   ))}
                 </div>
-                <div className=" flex items-start justify-start absolute top-44 ml-6">
-                  <div className="bg-[#FDF0E7] flex items-center rounded-md px-3 py-2">
+                <div className=" flex items-start justify-start absolute top-36 ml-6">
+                  <div className="bg-[#FDF0E7] flex items-center gap-2 rounded-md px-3 py-2">
+                    <FaImage className=" text-xl text-[#EE6612]" />
                     <p className=" font-medium">20</p>
                   </div>
                 </div>
@@ -116,7 +117,8 @@ const PopularProperties = () => {
                   ))}
                 </div>
                 <div className=" flex items-start justify-start absolute top-44 ml-6">
-                  <div className="bg-[#FDF0E7] flex items-center rounded-md px-3 py-2">
+                  <div className="bg-[#FDF0E7] flex items-center gap-2 rounded-md px-3 py-2">
+                    <FaImage className=" text-xl text-[#EE6612]" />
                     <p className=" font-medium">20</p>
                   </div>
                 </div>
