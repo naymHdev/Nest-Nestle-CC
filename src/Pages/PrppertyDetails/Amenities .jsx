@@ -1,10 +1,24 @@
 import { IoBatteryCharging } from "react-icons/io5";
 import { GiLift } from "react-icons/gi";
-import { FaWarehouse } from "react-icons/fa";
+import { FaWarehouse, FaWifi } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 import { PiParkBold } from "react-icons/pi";
-import { MdOutlineDepartureBoard } from "react-icons/md";
+import { MdOutlineDepartureBoard, MdOutlineFilePresent } from "react-icons/md";
 import { RiSecurePaymentLine } from "react-icons/ri";
+import { LuGlassWater, LuForklift } from "react-icons/lu";
+import { FaTreeCity } from "react-icons/fa6";
+import { CiParking1 } from "react-icons/ci";
+import { SiIntercom } from "react-icons/si";
+import { GiCrescentStaff } from "react-icons/gi";
+import { GiWaterfall } from "react-icons/gi";
+import { GiMissileLauncher } from "react-icons/gi";
+import { PiTelevision } from "react-icons/pi";
+import { GiCelebrationFire } from "react-icons/gi";
+import { GrRun } from "react-icons/gr";
+import { MdOutlineSportsTennis } from "react-icons/md";
+import { PiGraduationCapBold } from "react-icons/pi";
+import { GiKidSlide } from "react-icons/gi";
+import { MdSportsKabaddi } from "react-icons/md";
 
 const Amenities = () => {
   return (
@@ -41,71 +55,71 @@ const Amenities = () => {
             <p>Security</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <LuGlassWater className=" text-2xl" />
             <p>Water Storage</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <FaTreeCity className=" text-2xl" />
             <p>Private Terrace/Garden</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <MdOutlineFilePresent className=" text-2xl" />
             <p>Vaastu Compliant</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <LuForklift className=" text-2xl" />
             <p>Service/Goods Lift</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
-            <p>Al Visitor Parking</p>
+            <CiParking1 className=" text-2xl" />
+            <p>Visitor Parking</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <SiIntercom className=" text-2xl" />
             <p>Intercom Facility</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GiCrescentStaff className=" text-2xl" />
             <p>Maintenance Staff</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GiWaterfall className=" text-2xl" />
             <p>Waste Disposal</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GiMissileLauncher className=" text-2xl" />
             <p>Laundry Service</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <FaWifi className=" text-2xl" />
             <p>Internet/Wi-Fi Connectivity</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <PiTelevision className=" text-2xl" />
             <p>DTH Television Facility</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GiCelebrationFire className=" text-2xl" />
             <p>Piped Gas</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GrRun className=" text-2xl" />
             <p>Jogging and Strolling Track</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <MdOutlineSportsTennis className=" text-2xl" />
             <p>Outdoor Tennis Courts</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <PiGraduationCapBold className=" text-2xl" />
             <p>Early Learning Centre</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <GiKidSlide className=" text-2xl" />
             <p>Kids Play Area</p>
           </div>
           <div className="flex item-center gap-2">
-            <IoBatteryCharging className=" text-2xl" />
+            <MdSportsKabaddi className=" text-2xl" />
             <p>Indoor Squash & Badminton Courts</p>
           </div>
         </div>
