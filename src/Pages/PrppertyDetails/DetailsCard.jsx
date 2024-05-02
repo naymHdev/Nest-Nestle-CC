@@ -4,6 +4,9 @@ import { LiaBedSolid } from "react-icons/lia";
 import { MdBathtub, MdBalcony } from "react-icons/md";
 import { GiFinishLine } from "react-icons/gi";
 import { Steps, Popover } from "antd";
+import GoogleMapReact from "google-map-react";
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 const customDot = (dot, { status, index }) => (
   <Popover
@@ -20,6 +23,14 @@ const customDot = (dot, { status, index }) => (
 const DetailsCard = ({ detail }) => {
   const { images, price, location, property_name, details } = detail || {};
   const different = price + 10;
+
+  const defaultProps = {
+    center: {
+      lat: 10.99835602,
+      lng: 77.01502627,
+    },
+    zoom: 11,
+  };
 
   return (
     <>
@@ -190,6 +201,24 @@ const DetailsCard = ({ detail }) => {
                 Bid Property
               </button>
             </div>
+          </div>
+          {/* Google Map */}
+          <div>
+            <section className=" mt-12">
+              <div style={{ height: "70vh", width: "100%" }}>
+                <GoogleMapReact
+                  bootstrapURLKeys={{ key: "" }}
+                  defaultCenter={defaultProps.center}
+                  defaultZoom={defaultProps.zoom}
+                >
+                  <AnyReactComponent
+                    lat={59.955413}
+                    lng={30.337844}
+                    text="My Marker"
+                  />
+                </GoogleMapReact>
+              </div>
+            </section>
           </div>
         </div>
       </div>

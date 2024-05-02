@@ -15,6 +15,7 @@
     "add": "^2.0.6",
     "antd": "^5.16.5",
     "axios": "^1.6.8",
+    "google-map-react": "^2.2.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
