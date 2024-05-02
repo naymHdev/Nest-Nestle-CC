@@ -41,14 +41,14 @@ const SearchResult = () => {
       <div className=" w-11/12 mx-auto mt-11">
         <IsProperty allProperty={allProperty} />
       </div>
-      <div className=" flex items-center justify-center gap-5 mt-16 bg-[#ECF5FF] w-11/12 mx-auto rounded-md p-8">
+      <div className="md:flex items-center justify-center gap-5 mt-16 bg-[#ECF5FF] w-11/12 mx-auto rounded-md p-8">
         <div className=" w-full">
           <h2 className=" text-3xl font-bold">Need a Home Loan?</h2>
-          <p className=" text-sm text-gray-700 font-thin">
+          <p className=" text-sm text-gray-700 font-thin mt-1">
             Select How much Home loan you can take
           </p>
         </div>
-        <div className=" w-full">
+        <div className=" w-full mt-5 md:mt-0">
           <Steps
             progressDot={customDot}
             labelPlacement="vertical"

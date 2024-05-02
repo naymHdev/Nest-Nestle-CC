@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import BuyerScreens from "../Pages/BuyerScreens/BuyerScreens";
 import About from "../Pages/About/About";
 import SearchResult from "../Pages/SearchResult/SearchResult";
+import PropertyDetails from "../Pages/PrppertyDetails/PropertyDetails";
 
 const Router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const Router = createBrowserRouter([
       {
         path: "/searchResult",
         element: <SearchResult />,
+      },
+      {
+        path: "/propertyDetails/:id",
+        element: <PropertyDetails />,
       },
     ],
   },
