@@ -75,8 +75,8 @@ const DetailsCard = ({ detail }) => {
               </p>
             </div>
           </div>
-          <div className="grid md:flex mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="mt-10 grid grid-cols-7">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 col-span-6">
               <div>
                 <div className=" space-y-1">
                   <p className=" font-medium text-gray-500">Carpet Area</p>
@@ -86,6 +86,32 @@ const DetailsCard = ({ detail }) => {
                 <div className=" mt-5">
                   <p className=" font-medium text-gray-500">Facing</p>
                   <p className=" font-bold">{details?.facing}</p>
+                </div>
+              </div>
+              <div>
+                <div className=" space-y-1">
+                  <p className=" font-medium text-gray-500">Floor</p>
+                  <p className=" font-bold">
+                    {details?.floor} (Out of 6th floor)
+                  </p>
+                </div>
+                <div className=" mt-12">
+                  <p className=" font-medium text-gray-500">Additional Rooms</p>
+                  <p className=" font-medium">{details?.additional_rooms}</p>
+                </div>
+              </div>
+              <div>
+                <div className=" space-y-1">
+                  <p className=" font-medium text-gray-500">Transaction Type</p>
+                  <p className=" font-bold">{details?.transaction_type}</p>
+                </div>
+                <div className=" mt-12">
+                  <p className=" font-medium text-gray-500">
+                    Age of construction
+                  </p>
+                  <p className=" font-bold">
+                    {details?.age_of_construction} Year of Construction
+                  </p>
                 </div>
               </div>
             </div>
