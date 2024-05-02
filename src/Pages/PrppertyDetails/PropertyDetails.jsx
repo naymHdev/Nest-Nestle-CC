@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom";
 import useAllProperty from "../../Hooks/useAllProperty";
 import DetailsCard from "./DetailsCard";
 import Amenities from "./Amenities ";
+import OtherServices from "../Home/OtherServices";
+import NewProperties from "../../Components/PopularProperties/NewProperties";
 
 const PropertyDetails = () => {
   const [allProperty] = useAllProperty();
@@ -28,6 +30,8 @@ const PropertyDetails = () => {
       <div className=" w-11/12 mx-auto mt-16">
         <Amenities />
       </div>
+      <OtherServices />
+      <NewProperties />
     </>
   );
 };

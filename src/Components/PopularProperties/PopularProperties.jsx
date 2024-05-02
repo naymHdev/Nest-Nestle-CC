@@ -6,10 +6,7 @@ import { Link } from "react-router-dom";
 
 const PopularProperties = () => {
   const [isProperty] = useProperty();
-  // console.log(isProperty);
-
-  // const { images, property_name, location, property_type, price } =
-
+  
   const settings = {
     dots: true,
     infinite: true,
