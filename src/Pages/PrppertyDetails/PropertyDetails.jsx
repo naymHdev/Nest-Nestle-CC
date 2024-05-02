@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import useAllProperty from "../../Hooks/useAllProperty";
 import DetailsCard from "./DetailsCard";
+import Amenities from "./Amenities ";
 
 const PropertyDetails = () => {
   const [allProperty] = useAllProperty();
@@ -18,7 +19,14 @@ const PropertyDetails = () => {
             ))}
           </div>
         </div>
-        <div className="md:col-span-2 border rounded-md"></div>
+        <div className="md:col-span-2">
+          <div className="bg-[#ECF5FF] rounded-md p-5 mt-[85px]">
+            <p>property value</p>
+          </div>
+        </div>
+      </div>
+      <div className=" w-11/12 mx-auto mt-16">
+        <Amenities />
       </div>
     </>
   );

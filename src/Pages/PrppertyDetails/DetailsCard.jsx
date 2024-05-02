@@ -44,7 +44,7 @@ const DetailsCard = ({ detail }) => {
         {/* Overview */}
         <div className="bg-[#F9FAFB] mt-8 p-8 border rounded-md shadow-md">
           <h2 className=" text-2xl font-medium">Overview</h2>
-          <div className=" bg-white rounded-md shadow-md p-5 flex items-center justify-evenly mt-5">
+          <div className=" bg-[#FFFFFF] rounded-md shadow-md p-5 flex items-center justify-evenly mt-5">
             <div className=" flex items-center justify-center gap-2">
               <LiaBedSolid className=" text-xl" />
               <p className=" flex items-center gap-1">
