@@ -3,6 +3,19 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { LiaBedSolid } from "react-icons/lia";
 import { MdBathtub, MdBalcony } from "react-icons/md";
 import { GiFinishLine } from "react-icons/gi";
+import { Steps, Popover } from "antd";
+
+const customDot = (dot, { status, index }) => (
+  <Popover
+    content={
+      <span>
+        step {index} status: {status}
+      </span>
+    }
+  >
+    {dot}
+  </Popover>
+);
 
 const DetailsCard = ({ detail }) => {
   const { images, price, location, property_name, details } = detail || {};
@@ -157,6 +170,20 @@ const DetailsCard = ({ detail }) => {
                   placeholder="$305K"
                 />
               </div>
+            </div>
+            <div className=" mt-6 w-full">
+              <Steps
+                current={2}
+                progressDot={customDot}
+                items={[
+                  {
+                    title: "$280K",
+                  },
+                  {
+                    title: "$280K",
+                  },
+                ]}
+              />
             </div>
             <div className="flex items-center justify-center">
               <button className="bg-[#055AB1] rounded-md mt-8 text-white px-6 py-3">
