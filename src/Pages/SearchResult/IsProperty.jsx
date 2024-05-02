@@ -26,7 +26,7 @@ const IsProperty = ({ allProperty }) => {
   return (
     <>
       <div>
-        <div className=" flex items-center gap-8">
+        <div className=" flex flex-wrap items-center gap-2 md:gap-5">
           <button className="bg-[#055AB1] text-white font-medium px-4 py-2 rounded-md">
             properties ({allProperty?.length})
           </button>

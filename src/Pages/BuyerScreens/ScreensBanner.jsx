@@ -19,7 +19,7 @@ const ScreensBanner = () => {
             />
           </div>
           {/* Tabs */}
-          <div className=" relative w-full bg-white text-black rounded-md shadow-md px-5 py-5 md:w-8/12 mx-auto -mt-[230px] z-10">
+          <div className=" relative w-full bg-white text-black rounded-md shadow-md px-5 py-5 md:w-8/12 mx-auto -mt-32 md:-mt-24 lg:-mt-[230px] z-10">
             <div className="w-full">
               <Tab.Group>
                 <Tab.List className=" flex items-center gap-8 font-medium  border-b-2 border-[#F1F7FF]">
