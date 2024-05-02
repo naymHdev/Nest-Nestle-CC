@@ -6,6 +6,7 @@ import { GiFinishLine } from "react-icons/gi";
 
 const DetailsCard = ({ detail }) => {
   const { images, price, location, property_name, details } = detail || {};
+  const different = price + 10;
 
   return (
     <>
@@ -129,6 +130,39 @@ const DetailsCard = ({ detail }) => {
         <div className="md:col-span-2">
           <div className="bg-[#ECF5FF] rounded-md p-5 mt-[85px]">
             <p>property value</p>
+            <div className=" font-semibold flex items-center gap-2 text-xl mt-2">
+              <p>${price}K</p> - <p>${different}K</p>
+            </div>
+            <p className=" text-sm text-gray-500 mt-4">
+              Your bid can not be than 10% of the property Minimum value.
+            </p>
+            <div className=" mt-8 grid space-y-3">
+              <div className=" grid space-y-2">
+                <label className=" label">Min</label>
+                <input
+                  className=" px-3 py-2 rounded-md shadow-sm border-hidden focus:outline-none"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="$280K"
+                />
+              </div>
+              <div className=" grid space-y-2">
+                <label className=" label">Max</label>
+                <input
+                  className=" px-3 py-2 rounded-md shadow-sm border-hidden focus:outline-none"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="$305K"
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-center">
+              <button className="bg-[#055AB1] rounded-md mt-8 text-white px-6 py-3">
+                Bid Property
+              </button>
+            </div>
           </div>
         </div>
       </div>
