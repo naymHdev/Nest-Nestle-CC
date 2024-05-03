@@ -4,6 +4,7 @@ import DetailsCard from "./DetailsCard";
 import Amenities from "./Amenities ";
 import OtherServices from "../Home/OtherServices";
 import NewProperties from "../../Components/PopularProperties/NewProperties";
+import { Helmet } from "react-helmet";
 
 const PropertyDetails = () => {
   const [allProperty] = useAllProperty();
@@ -13,6 +14,9 @@ const PropertyDetails = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Nest Nestle || Property Details</title>
+      </Helmet>
       <div className=" w-11/12 mx-auto">
         <div>
           {details?.map((detail) => (
