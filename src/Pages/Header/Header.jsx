@@ -51,8 +51,8 @@ export default function Header() {
           <img className="h-8 w-auto" src={logo} alt="" />
         </a>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-8">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Manage Rentals
+          <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+            About Us
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Sign in
@@ -98,10 +98,16 @@ export default function Header() {
                   Sell
                 </a>
                 <a
-                  href="#"
+                  href="/searchResult"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Services
+                </a>
+                <a
+                  href="/about"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  About Us
                 </a>
               </div>
               <div className="py-6">

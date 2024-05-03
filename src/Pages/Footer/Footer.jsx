@@ -146,16 +146,16 @@ const Footer = () => {
             </p>
           </div>
           <div className=" flex items-center justify-center gap-5 mt-4 md:mt-0">
-            <a href="">
+            <a target="_blank" href="https://twitter.com/naymHdev">
               <FaTwitter className=" text-xl text-sky-400" />
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.linkedin.com/in/naymhdev">
               <FaLinkedin className=" text-xl text-sky-600" />
             </a>
-            <a href="">
+            <a target="_blank" href="https://web.facebook.com/naymHdev">
               <FaFacebook className=" text-xl text-sky-500" />
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.youtube.com/@naymhossen1b">
               <FaYoutube className=" text-xl text-red-500" />
             </a>
           </div>
