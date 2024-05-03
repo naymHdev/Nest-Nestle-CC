@@ -8,21 +8,22 @@ import { Link } from "react-router-dom";
 const PropertyCard = ({ property }) => {
   const { images, price, location, property_name, details, id } =
     property || {};
+
+  // console.log(images[1].image2);
+
   return (
     <>
       <Link to={`/propertyDetails/${id}`}>
-        <div className=" md:placeholder:flex md:gap-8 bg-[#F9FAFB] md:p-6 p-2 mt-5 rounded-md md:w-8/12 shadow-sm">
-          <div>
-            <div className="bg-[#F9FAFB]">
-              {images?.map((img, index) => (
-                <div key={index}>
-                  <img
-                    className="md:w-[152px] h-full rounded-md"
-                    src={img?.image1}
-                    alt=""
-                  />
-                </div>
-              ))}
+        <div className=" md:placeholder md:flex md:gap-8 bg-[#F9FAFB] md:p-6 p-2 mt-5 rounded-md md:w-8/12 shadow-sm">
+          <div className="">
+            <div className="bg-[#F9FAFB] flex items-center justify-center">
+              <div style={{ height: "220px" }}>
+                <img
+                  className="w-full h-full rounded-md"
+                  src={images[1].image2}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className=" w-full">
