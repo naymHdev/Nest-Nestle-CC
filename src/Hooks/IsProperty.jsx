@@ -6,7 +6,7 @@ const IsProperty = ({ image1, image2, title, description, name }) => {
   return (
     <>
       <div className="grid md:flex gap-8">
-        <div className=" flex-1 relative">
+        <div className=" flex-1 relative order-last md:order-first">
           <div>
             <img
               className="w-[458px] h-[400px] rounded-md"
