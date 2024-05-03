@@ -25,7 +25,7 @@ const Amenities = () => {
     <>
       <div className="bg-[#F9FAFB] rounded-md p-6">
         <h2 className=" text-xl font-medium">Amenities</h2>
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-8 mt-6 text-sm">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-8 mt-6 text-sm hover:cursor-pointer">
           <div className="flex item-center gap-2">
             <IoBatteryCharging className=" text-2xl" />
             <p>Power Back Up</p>

@@ -24,6 +24,8 @@ const DetailsCard = ({ detail }) => {
   const { images, price, location, property_name, details } = detail || {};
   const different = price + 10;
 
+  console.log(images[1].image2);
+
   const defaultProps = {
     center: {
       lat: 10.99835602,
@@ -57,7 +59,7 @@ const DetailsCard = ({ detail }) => {
                 </div>
               ))}
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-3 gap-3">
+            <div className=" grid grid-cols-1 md:grid-cols-3 gap-2">
               {images?.map((img, idx) => (
                 <div key={idx} className=" mt-4">
                   <img className=" rounded-md" src={img.image1} alt="" />
